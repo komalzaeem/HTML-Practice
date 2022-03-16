@@ -53,6 +53,90 @@
     <a href="https://www.google.com" target="_blank"> <img src="./image/google.png" title=" google"></a>
     <a href="https://www.facebook.com" target="_blank"> <img src="./image/facebook.webp" title="facebook"></a>
 
-    <marquee>HTML practice</marquee>
+    <marquee>HTML practice </marquee>
+
+    <!------------------Facebook FORM----------------------------->
+    
+    <h1 style="color: blue;"> FACEBOOK</h1>
+    <h2>Creat a new account</h2>
+    <p>It's quick and easy.</p>
+    </h2>
+        <form>
+      
+            <input placeholder="First Name" type="text" required>
+            <input placeholder="Surname" type="text" required>
+            <br>
+            <br>
+            <input placeholder=" Email address or Mobile number" type="email" required>
+            <br>
+            <label>Date of Birth</label>
+            <br>
+            <input placeholder="date" type="number" pattern="[0-9]{2}" required > 
+            <input placeholder="month" type="number" pattern="[0-9]{2}" required >
+            <input placeholder="year" type="number"pattern="[0-9]{4}" required >
+            <br>
+            <label>Gender</label>
+            <br>
+
+             <input  type="radio" name="Gender"> <!--if we want to get only 1 value and we write same name -->
+            <label>Male </label>
+            
+            <input  type="radio" name="Gender" >
+            <label>Female </label>
+            
+            <input  type="radio" name="Gender" >
+            <label>Custom </label >
+            
+            <br>
+            <input type="submit" value="Sign Up" >
+            <input type="reset">    <!---- to remove all data and type again-->
+        </form>
+        <br>
+        <!---------------------- TABLE ---------------->
+
+        <table border="1px" style="width: 10%;">
+            <caption><b> STUDENT FORM </b></caption>
+        <tr>
+            <th>Student Roll no. </th>
+            <th>Student Name </th>
+            <th>Email</th>
+            <th>CGPA</th>
+        </tr>
+
+        <tr>
+        <td>BSIT M1-20-32</td>
+        <td>Komal Zaeem</td>
+        <td>komalzaeem03@gmail.com</td>
+        <td>A</td>
+       </tr>
+
+       <tr>
+        <td>BSIT M1-20-19</td>
+        <td>Khush bakht</td>
+        <td>1234@gmail.com</td>
+        <td>B</td>
+       </tr>
+
+       <tr>
+        <td>BSIT M1-20-26</td>
+        <td>Minahil </td>
+        <td>mina@gmail.com</td>
+        <td>A</td>
+       </tr>
+        </table>
+        <br>
+
+        <!------ diff tags for file,time-->
+            <input type="time">
+            <input type="file">
+        <!--------------------------->
+        <br>
+        <label><b> Choose your fav colour</b></label>
+        <input type="checkbox" name="fav1">  <!--------to select more options and we use diff name to save data-->
+       <label>black</label>
+       <input type="checkbox" name="fav2">
+       <label>green</label>
+       <input type="checkbox" name="fav3">
+       <label>blue</label>
 </body>
 </html>
