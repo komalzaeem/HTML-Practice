@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <head>
     <title>Fist Career Assignment</title>
+    <link rel="icon" href="./image/logo html.png">
 </head>
 <body>
     <h1>PAKISTAN</h1>
@@ -56,7 +57,8 @@
     <marquee>HTML practice </marquee>
 
     <!------------------Facebook FORM----------------------------->
-    
+    <div style="background-color: antiquewhite;">  <!-- also we use section instead of div-->
+
     <h1 style="color: blue;"> FACEBOOK</h1>
     <h2>Creat a new account</h2>
     <p>It's quick and easy.</p>
@@ -89,13 +91,14 @@
             
             <br>
             <input type="submit" value="Sign Up" >
-            <input type="reset">    <!---- to remove all data and type again-->
+             
         </form>
+        </div>
         <br>
         <!---------------------- TABLE ---------------->
 
         <table border="1px" style="width: 10%;">
-            <caption><b> STUDENT FORM </b></caption>
+            <caption><b> STUDENT TABLE </b></caption>
         <tr>
             <th>Student Roll no. </th>
             <th>Student Name </th>
@@ -126,10 +129,18 @@
         </table>
         <br>
 
+        <form style="background-color: bisque;">
+        <label><b>FORM NO 2 </b></label>
+        <input type="color">
+        <br>
+        <br>
         <!------ diff tags for file,time-->
-            <input type="time">
-            <input type="file">
+            <input type="time" required>
+            <input type="file" required>
+            <input type="date" required>
+            <input type="month" required>
         <!--------------------------->
+           
         <br>
         <label><b> Choose your fav colour</b></label>
         <input type="checkbox" name="fav1">  <!--------to select more options and we use diff name to save data-->
@@ -138,5 +149,14 @@
        <label>green</label>
        <input type="checkbox" name="fav3">
        <label>blue</label>
+            <br>
+        <select>
+            <option> Sahiwal</option>
+            <option> lahore </option>
+            <option>Karachi</option>
+        </select>
+       <input type="reset">    <!---- to remove all data and type again-->
+    </form >
+    <!---- span is small container in which we have to make changes in small area-->
 </body>
 </html>
